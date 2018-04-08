@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_d5DFEDtXEeitEd4YRWJO8w" name="NewModel">
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_y6ih4DtXEeitEd4YRWJO8w" name="consulter les horaires"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_pOedgDtdEeitEd4YRWJO8w" name="apprendre sur ma religion, mon histoire, mon identité"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_v0cr8DtdEeitEd4YRWJO8w" name="lire les hadiths">
+    <ownedUseCase xmi:id="_0fNx8DtdEeitEd4YRWJO8w" name="consulter les horaires"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_02Gn8DtdEeitEd4YRWJO8w" name="ecouter coran"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_9xP-ADtdEeitEd4YRWJO8w" name="connaitre les services offerts par la mosquée"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_IB-m8DteEeitEd4YRWJO8w" name="connaitre leprochain imam de vendredi et le thème">
+    <ownedUseCase xmi:id="_Q2GH8DteEeitEd4YRWJO8w" name="consulter les horaires"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_RakG8DteEeitEd4YRWJO8w" name="Télecharger les prêches"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_XnmQ8DteEeitEd4YRWJO8w" name="Télécharger des livres et des vidéos sélectionnées relatives à la religion">
+    <ownedUseCase xmi:id="_X-o38DteEeitEd4YRWJO8w" name="consulter les horaires"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_1PgJ8DteEeitEd4YRWJO8w" name="faire un don">
+    <include xmi:id="_YPJhsDt1EeitEd4YRWJO8w" addition="_hDlQ8DtjEeitEd4YRWJO8w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_C6ALEDtfEeitEd4YRWJO8w" name="Recevoir les informations par mail">
+    <ownedUseCase xmi:id="_D3oQ8DtfEeitEd4YRWJO8w" name="consulter les horaires"/>
+    <ownedUseCase xmi:id="_MJG-8DtfEeitEd4YRWJO8w" name="UseCase10">
+      <ownedUseCase xmi:id="_MJG-8TtfEeitEd4YRWJO8w" name="consulter les horaires"/>
+    </ownedUseCase>
+    <include xmi:id="_bstNsDt1EeitEd4YRWJO8w" addition="_hDlQ8DtjEeitEd4YRWJO8w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_EtL_8DtfEeitEd4YRWJO8w" name="consulter plan + transport du mosquée">
+    <ownedUseCase xmi:id="_EtL_8TtfEeitEd4YRWJO8w" name="consulter les horaires"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_M7do8DtfEeitEd4YRWJO8w" name="Etre informé des activités de la mosquée">
+    <ownedUseCase xmi:id="_M7do8TtfEeitEd4YRWJO8w" name="consulter les horaires"/>
+    <include xmi:id="_bCvqsDt1EeitEd4YRWJO8w" addition="_hDlQ8DtjEeitEd4YRWJO8w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_fNgc8DtfEeitEd4YRWJO8w" name="contacter la mosquée">
+    <ownedUseCase xmi:id="_fNgc8TtfEeitEd4YRWJO8w" name="consulter les horaires"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_oN2cEDtfEeitEd4YRWJO8w" name="Savoir comment pratiquer ma religion"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_tVnAEDtfEeitEd4YRWJO8w" name="Poser des questions à l'imam"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_0XRsADtfEeitEd4YRWJO8w" name="connaitre les autres convertis"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_63xkkDtfEeitEd4YRWJO8w" name="connaître les grandes lignes de la religion musulmane"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_PuXjgDthEeitEd4YRWJO8w" name="Connaître le prophète de l'Islam"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_YiRCEDthEeitEd4YRWJO8w" name="Connaître le coran">
+    <ownedUseCase xmi:id="_dZiTADthEeitEd4YRWJO8w" name="Recevoir les informations par mail">
+      <ownedUseCase xmi:id="_dZiTATthEeitEd4YRWJO8w" name="consulter les horaires"/>
+    </ownedUseCase>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_bL9BIDthEeitEd4YRWJO8w" name="Poser des questions sur l'Islam"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_dqxM8DthEeitEd4YRWJO8w" name="Connaître la position de l'Islam"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_enMY8DthEeitEd4YRWJO8w" name="Connaître la position de l'Islam sur les sujets d'actualité"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_Qamh8DtiEeitEd4YRWJO8w" name="Aller à la mosquée (portes ouvertes)"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_rgz6QDtiEeitEd4YRWJO8w" name="Permanence imam">
+    <generalization xmi:id="_K2rEsDt1EeitEd4YRWJO8w" general="_9xP-ADtdEeitEd4YRWJO8w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_t2wd8DtiEeitEd4YRWJO8w" name="Accueil femmes">
+    <generalization xmi:id="_D4Or4Dt1EeitEd4YRWJO8w" general="_9xP-ADtdEeitEd4YRWJO8w"/>
+    <ownedUseCase xmi:id="_t_wB4DtiEeitEd4YRWJO8w" name="Aller à la mosquée (portes ouvertes)"/>
+    <ownedUseCase xmi:id="_wjei4DtiEeitEd4YRWJO8w" name="Aller à la mosquée (portes ouvertes)"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_xIRSADtiEeitEd4YRWJO8w" name="Ablution">
+    <generalization xmi:id="_InBWQDt1EeitEd4YRWJO8w" general="_9xP-ADtdEeitEd4YRWJO8w"/>
+    <ownedUseCase xmi:id="_xIRSATtiEeitEd4YRWJO8w" name="Aller à la mosquée (portes ouvertes)"/>
+    <ownedUseCase xmi:id="_yX6U8DtiEeitEd4YRWJO8w" name="">
+      <ownedUseCase xmi:id="_yX6U8TtiEeitEd4YRWJO8w" name="Aller à la mosquée (portes ouvertes)"/>
+    </ownedUseCase>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_ytuz8DtiEeitEd4YRWJO8w" name="Horaires d'ouverture">
+    <generalization xmi:id="_JTuEMDt1EeitEd4YRWJO8w" general="_9xP-ADtdEeitEd4YRWJO8w"/>
+    <ownedUseCase xmi:id="_ytuz8TtiEeitEd4YRWJO8w" name="Aller à la mosquée (portes ouvertes)"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_0ZdV8DtiEeitEd4YRWJO8w" name="conférence">
+    <generalization xmi:id="_NHQAMDt1EeitEd4YRWJO8w" general="_9xP-ADtdEeitEd4YRWJO8w"/>
+    <ownedUseCase xmi:id="_0ZdV8TtiEeitEd4YRWJO8w" name="Aller à la mosquée (portes ouvertes)"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_1ykd8DtiEeitEd4YRWJO8w" name="Cours">
+    <generalization xmi:id="_HT7WsDt1EeitEd4YRWJO8w" general="_9xP-ADtdEeitEd4YRWJO8w"/>
+    <ownedUseCase xmi:id="_1ykd8TtiEeitEd4YRWJO8w" name="Aller à la mosquée (portes ouvertes)"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_2jPs8DtiEeitEd4YRWJO8w" name="Prière de vendredi">
+    <generalization xmi:id="_WQCwsDt1EeitEd4YRWJO8w" general="_9xP-ADtdEeitEd4YRWJO8w"/>
+    <ownedUseCase xmi:id="_2jPs8TtiEeitEd4YRWJO8w" name="Aller à la mosquée (portes ouvertes)"/>
+    <ownedUseCase xmi:id="_3x-w8DtiEeitEd4YRWJO8w" name="">
+      <ownedUseCase xmi:id="_3x-w8TtiEeitEd4YRWJO8w" name="Aller à la mosquée (portes ouvertes)"/>
+    </ownedUseCase>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_4MYN8DtiEeitEd4YRWJO8w" name="Prière de l'Aïd">
+    <generalization xmi:id="_UkAssDt1EeitEd4YRWJO8w" general="_9xP-ADtdEeitEd4YRWJO8w"/>
+    <ownedUseCase xmi:id="_4MYN8TtiEeitEd4YRWJO8w" name="Aller à la mosquée (portes ouvertes)"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_K2_6ADtjEeitEd4YRWJO8w" name="Récolte zakat">
+    <generalization xmi:id="_T4XusDt1EeitEd4YRWJO8w" general="_9xP-ADtdEeitEd4YRWJO8w"/>
+    <ownedUseCase xmi:id="_K2_6ATtjEeitEd4YRWJO8w" name="Aller à la mosquée (portes ouvertes)"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_L0VE8DtjEeitEd4YRWJO8w" name="Service funéraire">
+    <generalization xmi:id="_TNpWsDt1EeitEd4YRWJO8w" general="_9xP-ADtdEeitEd4YRWJO8w"/>
+    <ownedUseCase xmi:id="_L0VE8TtjEeitEd4YRWJO8w" name="Aller à la mosquée (portes ouvertes)"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_OgJK8DtjEeitEd4YRWJO8w" name="Cérémonie mariage">
+    <generalization xmi:id="_PSo5sDt1EeitEd4YRWJO8w" general="_9xP-ADtdEeitEd4YRWJO8w"/>
+    <ownedUseCase xmi:id="_OgJK8TtjEeitEd4YRWJO8w" name="Aller à la mosquée (portes ouvertes)"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_Q-1a8DtjEeitEd4YRWJO8w" name="Conversion">
+    <generalization xmi:id="_OqvMMDt1EeitEd4YRWJO8w" general="_9xP-ADtdEeitEd4YRWJO8w"/>
+    <ownedUseCase xmi:id="_Q-1a8TtjEeitEd4YRWJO8w" name="Aller à la mosquée (portes ouvertes)"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_hDlQ8DtjEeitEd4YRWJO8w" name="Authentification">
+    <ownedUseCase xmi:id="_hDlQ8TtjEeitEd4YRWJO8w" name="Aller à la mosquée (portes ouvertes)"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_iNmNADtjEeitEd4YRWJO8w" name="Par téléphone">
+    <generalization xmi:id="_-LvqMDt0EeitEd4YRWJO8w" general="_fNgc8DtfEeitEd4YRWJO8w"/>
+    <ownedUseCase xmi:id="_iNmNATtjEeitEd4YRWJO8w" name="Aller à la mosquée (portes ouvertes)"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_iv628DtjEeitEd4YRWJO8w" name="Par Email">
+    <generalization xmi:id="_80T9MDt0EeitEd4YRWJO8w" general="_fNgc8DtfEeitEd4YRWJO8w"/>
+    <ownedUseCase xmi:id="_iv628TtjEeitEd4YRWJO8w" name="Aller à la mosquée (portes ouvertes)"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_jQud8DtjEeitEd4YRWJO8w" name="Par Chat">
+    <generalization xmi:id="_-xNHsDt0EeitEd4YRWJO8w" general="_fNgc8DtfEeitEd4YRWJO8w"/>
+    <ownedUseCase xmi:id="_jQud8TtjEeitEd4YRWJO8w" name="Aller à la mosquée (portes ouvertes)"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_wnEM8DtjEeitEd4YRWJO8w" name="par rapport aux non musulmans">
+    <generalization xmi:id="_CDGywDt0EeitEd4YRWJO8w" general="_dqxM8DthEeitEd4YRWJO8w"/>
+    <ownedUseCase xmi:id="_wnEM8TtjEeitEd4YRWJO8w" name="Aller à la mosquée (portes ouvertes)"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_xWNx8DtjEeitEd4YRWJO8w" name="Par rapport aux autres religions">
+    <generalization xmi:id="_C7BSMDt0EeitEd4YRWJO8w" general="_dqxM8DthEeitEd4YRWJO8w"/>
+    <ownedUseCase xmi:id="_xWNx8TtjEeitEd4YRWJO8w" name="Aller à la mosquée (portes ouvertes)"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_xoc-MDtzEeitEd4YRWJO8w" name="Musulman">
+    <eAnnotations xmi:id="_xoeMUDtzEeitEd4YRWJO8w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details xmi:id="_xoeMUTtzEeitEd4YRWJO8w" key="Human"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_FryJoDt0EeitEd4YRWJO8w" name="Non musulman">
+    <eAnnotations xmi:id="_FryJoTt0EeitEd4YRWJO8w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details xmi:id="_FryJojt0EeitEd4YRWJO8w" key="Human"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_HGDvQDt0EeitEd4YRWJO8w" memberEnd="_HGDvQTt0EeitEd4YRWJO8w _HGDvQjt0EeitEd4YRWJO8w">
+    <ownedEnd xmi:id="_HGDvQTt0EeitEd4YRWJO8w" type="_dqxM8DthEeitEd4YRWJO8w" association="_HGDvQDt0EeitEd4YRWJO8w"/>
+    <ownedEnd xmi:id="_HGDvQjt0EeitEd4YRWJO8w" type="_FryJoDt0EeitEd4YRWJO8w" association="_HGDvQDt0EeitEd4YRWJO8w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_JYY-QDt0EeitEd4YRWJO8w" memberEnd="_JYY-QTt0EeitEd4YRWJO8w _JYZlUDt0EeitEd4YRWJO8w">
+    <ownedEnd xmi:id="_JYY-QTt0EeitEd4YRWJO8w" type="_63xkkDtfEeitEd4YRWJO8w" association="_JYY-QDt0EeitEd4YRWJO8w"/>
+    <ownedEnd xmi:id="_JYZlUDt0EeitEd4YRWJO8w" type="_FryJoDt0EeitEd4YRWJO8w" association="_JYY-QDt0EeitEd4YRWJO8w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_KFeGsDt0EeitEd4YRWJO8w" memberEnd="_KFetwDt0EeitEd4YRWJO8w _KFetwTt0EeitEd4YRWJO8w">
+    <ownedEnd xmi:id="_KFetwDt0EeitEd4YRWJO8w" type="_PuXjgDthEeitEd4YRWJO8w" association="_KFeGsDt0EeitEd4YRWJO8w"/>
+    <ownedEnd xmi:id="_KFetwTt0EeitEd4YRWJO8w" type="_FryJoDt0EeitEd4YRWJO8w" association="_KFeGsDt0EeitEd4YRWJO8w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_PX6QsDt0EeitEd4YRWJO8w" memberEnd="_PX6QsTt0EeitEd4YRWJO8w _PX63wDt0EeitEd4YRWJO8w">
+    <ownedEnd xmi:id="_PX6QsTt0EeitEd4YRWJO8w" type="_YiRCEDthEeitEd4YRWJO8w" association="_PX6QsDt0EeitEd4YRWJO8w"/>
+    <ownedEnd xmi:id="_PX63wDt0EeitEd4YRWJO8w" type="_FryJoDt0EeitEd4YRWJO8w" association="_PX6QsDt0EeitEd4YRWJO8w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_SDgUQDt0EeitEd4YRWJO8w" memberEnd="_SDgUQTt0EeitEd4YRWJO8w _SDgUQjt0EeitEd4YRWJO8w">
+    <ownedEnd xmi:id="_SDgUQTt0EeitEd4YRWJO8w" type="_bL9BIDthEeitEd4YRWJO8w" association="_SDgUQDt0EeitEd4YRWJO8w"/>
+    <ownedEnd xmi:id="_SDgUQjt0EeitEd4YRWJO8w" type="_FryJoDt0EeitEd4YRWJO8w" association="_SDgUQDt0EeitEd4YRWJO8w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_S7vj0Dt0EeitEd4YRWJO8w" memberEnd="_S7vj0Tt0EeitEd4YRWJO8w _S7vj0jt0EeitEd4YRWJO8w">
+    <ownedEnd xmi:id="_S7vj0Tt0EeitEd4YRWJO8w" type="_Qamh8DtiEeitEd4YRWJO8w" association="_S7vj0Dt0EeitEd4YRWJO8w"/>
+    <ownedEnd xmi:id="_S7vj0jt0EeitEd4YRWJO8w" type="_FryJoDt0EeitEd4YRWJO8w" association="_S7vj0Dt0EeitEd4YRWJO8w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_UQVYMDt0EeitEd4YRWJO8w" memberEnd="_UQV_QDt0EeitEd4YRWJO8w _UQV_QTt0EeitEd4YRWJO8w">
+    <ownedEnd xmi:id="_UQV_QDt0EeitEd4YRWJO8w" type="_enMY8DthEeitEd4YRWJO8w" association="_UQVYMDt0EeitEd4YRWJO8w"/>
+    <ownedEnd xmi:id="_UQV_QTt0EeitEd4YRWJO8w" type="_FryJoDt0EeitEd4YRWJO8w" association="_UQVYMDt0EeitEd4YRWJO8w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_WWLDUDt0EeitEd4YRWJO8w" name="Jeune musulman (converti/adolescent)">
+    <eAnnotations xmi:id="_WWPUwDt0EeitEd4YRWJO8w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details xmi:id="_WWP70Dt0EeitEd4YRWJO8w" key="Human"/>
+    </eAnnotations>
+    <generalization xmi:id="_vreesDt0EeitEd4YRWJO8w" general="_xoc-MDtzEeitEd4YRWJO8w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_YDVIsDt0EeitEd4YRWJO8w" memberEnd="_YDVIsTt0EeitEd4YRWJO8w _YDVvwDt0EeitEd4YRWJO8w">
+    <ownedEnd xmi:id="_YDVIsTt0EeitEd4YRWJO8w" type="_WWLDUDt0EeitEd4YRWJO8w" association="_YDVIsDt0EeitEd4YRWJO8w"/>
+    <ownedEnd xmi:id="_YDVvwDt0EeitEd4YRWJO8w" type="_tVnAEDtfEeitEd4YRWJO8w" association="_YDVIsDt0EeitEd4YRWJO8w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ZDMqQDt0EeitEd4YRWJO8w" memberEnd="_ZDMqQTt0EeitEd4YRWJO8w _ZDMqQjt0EeitEd4YRWJO8w">
+    <ownedEnd xmi:id="_ZDMqQTt0EeitEd4YRWJO8w" type="_WWLDUDt0EeitEd4YRWJO8w" association="_ZDMqQDt0EeitEd4YRWJO8w"/>
+    <ownedEnd xmi:id="_ZDMqQjt0EeitEd4YRWJO8w" type="_oN2cEDtfEeitEd4YRWJO8w" association="_ZDMqQDt0EeitEd4YRWJO8w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Z1nlsDt0EeitEd4YRWJO8w" memberEnd="_Z1nlsTt0EeitEd4YRWJO8w _Z1oMwDt0EeitEd4YRWJO8w">
+    <ownedEnd xmi:id="_Z1nlsTt0EeitEd4YRWJO8w" type="_WWLDUDt0EeitEd4YRWJO8w" association="_Z1nlsDt0EeitEd4YRWJO8w"/>
+    <ownedEnd xmi:id="_Z1oMwDt0EeitEd4YRWJO8w" type="_0XRsADtfEeitEd4YRWJO8w" association="_Z1nlsDt0EeitEd4YRWJO8w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_f-JqMDt0EeitEd4YRWJO8w" memberEnd="_f-JqMTt0EeitEd4YRWJO8w _f-JqMjt0EeitEd4YRWJO8w">
+    <ownedEnd xmi:id="_f-JqMTt0EeitEd4YRWJO8w" type="_RakG8DteEeitEd4YRWJO8w" association="_f-JqMDt0EeitEd4YRWJO8w"/>
+    <ownedEnd xmi:id="_f-JqMjt0EeitEd4YRWJO8w" type="_xoc-MDtzEeitEd4YRWJO8w" association="_f-JqMDt0EeitEd4YRWJO8w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_grR18Dt0EeitEd4YRWJO8w" memberEnd="_grR18Tt0EeitEd4YRWJO8w _grR18jt0EeitEd4YRWJO8w">
+    <ownedEnd xmi:id="_grR18Tt0EeitEd4YRWJO8w" type="_y6ih4DtXEeitEd4YRWJO8w" association="_grR18Dt0EeitEd4YRWJO8w"/>
+    <ownedEnd xmi:id="_grR18jt0EeitEd4YRWJO8w" type="_xoc-MDtzEeitEd4YRWJO8w" association="_grR18Dt0EeitEd4YRWJO8w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_hanoMDt0EeitEd4YRWJO8w" memberEnd="_haoPQDt0EeitEd4YRWJO8w _hao2UDt0EeitEd4YRWJO8w">
+    <ownedEnd xmi:id="_haoPQDt0EeitEd4YRWJO8w" type="_fNgc8DtfEeitEd4YRWJO8w" association="_hanoMDt0EeitEd4YRWJO8w"/>
+    <ownedEnd xmi:id="_hao2UDt0EeitEd4YRWJO8w" type="_xoc-MDtzEeitEd4YRWJO8w" association="_hanoMDt0EeitEd4YRWJO8w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ij8AsDt0EeitEd4YRWJO8w" memberEnd="_ij8AsTt0EeitEd4YRWJO8w _ij8Asjt0EeitEd4YRWJO8w">
+    <ownedEnd xmi:id="_ij8AsTt0EeitEd4YRWJO8w" type="_M7do8DtfEeitEd4YRWJO8w" association="_ij8AsDt0EeitEd4YRWJO8w"/>
+    <ownedEnd xmi:id="_ij8Asjt0EeitEd4YRWJO8w" type="_xoc-MDtzEeitEd4YRWJO8w" association="_ij8AsDt0EeitEd4YRWJO8w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_jUsvQDt0EeitEd4YRWJO8w" memberEnd="_jUsvQTt0EeitEd4YRWJO8w _jUtWUDt0EeitEd4YRWJO8w">
+    <ownedEnd xmi:id="_jUsvQTt0EeitEd4YRWJO8w" type="_IB-m8DteEeitEd4YRWJO8w" association="_jUsvQDt0EeitEd4YRWJO8w"/>
+    <ownedEnd xmi:id="_jUtWUDt0EeitEd4YRWJO8w" type="_xoc-MDtzEeitEd4YRWJO8w" association="_jUsvQDt0EeitEd4YRWJO8w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ko_osDt0EeitEd4YRWJO8w" memberEnd="_ko_osTt0EeitEd4YRWJO8w _ko_osjt0EeitEd4YRWJO8w">
+    <ownedEnd xmi:id="_ko_osTt0EeitEd4YRWJO8w" type="_XnmQ8DteEeitEd4YRWJO8w" association="_ko_osDt0EeitEd4YRWJO8w"/>
+    <ownedEnd xmi:id="_ko_osjt0EeitEd4YRWJO8w" type="_xoc-MDtzEeitEd4YRWJO8w" association="_ko_osDt0EeitEd4YRWJO8w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_lgYjsDt0EeitEd4YRWJO8w" memberEnd="_lgYjsTt0EeitEd4YRWJO8w _lgYjsjt0EeitEd4YRWJO8w">
+    <ownedEnd xmi:id="_lgYjsTt0EeitEd4YRWJO8w" type="_1PgJ8DteEeitEd4YRWJO8w" association="_lgYjsDt0EeitEd4YRWJO8w"/>
+    <ownedEnd xmi:id="_lgYjsjt0EeitEd4YRWJO8w" type="_xoc-MDtzEeitEd4YRWJO8w" association="_lgYjsDt0EeitEd4YRWJO8w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_mtcMsDt0EeitEd4YRWJO8w" memberEnd="_mtczwDt0EeitEd4YRWJO8w _mtczwTt0EeitEd4YRWJO8w">
+    <ownedEnd xmi:id="_mtczwDt0EeitEd4YRWJO8w" type="_EtL_8DtfEeitEd4YRWJO8w" association="_mtcMsDt0EeitEd4YRWJO8w"/>
+    <ownedEnd xmi:id="_mtczwTt0EeitEd4YRWJO8w" type="_xoc-MDtzEeitEd4YRWJO8w" association="_mtcMsDt0EeitEd4YRWJO8w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_n1_wMDt0EeitEd4YRWJO8w" memberEnd="_n1_wMTt0EeitEd4YRWJO8w _n2AXQDt0EeitEd4YRWJO8w">
+    <ownedEnd xmi:id="_n1_wMTt0EeitEd4YRWJO8w" type="_pOedgDtdEeitEd4YRWJO8w" association="_n1_wMDt0EeitEd4YRWJO8w"/>
+    <ownedEnd xmi:id="_n2AXQDt0EeitEd4YRWJO8w" type="_xoc-MDtzEeitEd4YRWJO8w" association="_n1_wMDt0EeitEd4YRWJO8w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_osUUMDt0EeitEd4YRWJO8w" memberEnd="_osU7QDt0EeitEd4YRWJO8w _osU7QTt0EeitEd4YRWJO8w">
+    <ownedEnd xmi:id="_osU7QDt0EeitEd4YRWJO8w" type="_v0cr8DtdEeitEd4YRWJO8w" association="_osUUMDt0EeitEd4YRWJO8w"/>
+    <ownedEnd xmi:id="_osU7QTt0EeitEd4YRWJO8w" type="_xoc-MDtzEeitEd4YRWJO8w" association="_osUUMDt0EeitEd4YRWJO8w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_pV-8QDt0EeitEd4YRWJO8w" name="A_ecouter coran_musulman" memberEnd="_pV-8QTt0EeitEd4YRWJO8w _pV_jUDt0EeitEd4YRWJO8w">
+    <ownedEnd xmi:id="_pV-8QTt0EeitEd4YRWJO8w" type="_02Gn8DtdEeitEd4YRWJO8w" association="_pV-8QDt0EeitEd4YRWJO8w"/>
+    <ownedEnd xmi:id="_pV_jUDt0EeitEd4YRWJO8w" type="_xoc-MDtzEeitEd4YRWJO8w" association="_pV-8QDt0EeitEd4YRWJO8w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_qBxEMDt0EeitEd4YRWJO8w" memberEnd="_qBxEMTt0EeitEd4YRWJO8w _qBxrQDt0EeitEd4YRWJO8w">
+    <ownedEnd xmi:id="_qBxEMTt0EeitEd4YRWJO8w" type="_9xP-ADtdEeitEd4YRWJO8w" association="_qBxEMDt0EeitEd4YRWJO8w"/>
+    <ownedEnd xmi:id="_qBxrQDt0EeitEd4YRWJO8w" type="_xoc-MDtzEeitEd4YRWJO8w" association="_qBxEMDt0EeitEd4YRWJO8w"/>
+  </packagedElement>
+</uml:Model>
