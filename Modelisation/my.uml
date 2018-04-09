@@ -229,4 +229,36 @@
     <ownedEnd xmi:id="_qBxEMTt0EeitEd4YRWJO8w" type="_9xP-ADtdEeitEd4YRWJO8w" association="_qBxEMDt0EeitEd4YRWJO8w"/>
     <ownedEnd xmi:id="_qBxrQDt0EeitEd4YRWJO8w" type="_xoc-MDtzEeitEd4YRWJO8w" association="_qBxEMDt0EeitEd4YRWJO8w"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_s-u8oDwZEeib_LukJ3k4Cw" name="HorairePriere" visibility="public" isAbstract="true">
+    <ownedAttribute xmi:id="_Sif48DwaEeib_LukJ3k4Cw" name="fajr">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Z2WgEDwlEeib_LukJ3k4Cw" name="dhohr">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_cLBUkDwpEeib_LukJ3k4Cw" name="asr">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_eO_-gDwpEeib_LukJ3k4Cw" name="moghreb">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_ehxJgDwpEeib_LukJ3k4Cw" name="isha">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_6CE3IDwZEeib_LukJ3k4Cw" name="AngleDouze" visibility="public">
+    <generalization xmi:id="_HS1ikDwaEeib_LukJ3k4Cw" general="_s-u8oDwZEeib_LukJ3k4Cw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_8X--kDwZEeib_LukJ3k4Cw" name="AngleQuinze" visibility="public">
+    <generalization xmi:id="_GpCXoDwaEeib_LukJ3k4Cw" general="_s-u8oDwZEeib_LukJ3k4Cw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_ikShkDwaEeib_LukJ3k4Cw" name="Hadith" visibility="public"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_VEnPYDwlEeib_LukJ3k4Cw" name="Strin "/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_UMdikDwpEeib_LukJ3k4Cw" name="AngleXX" visibility="public">
+    <generalization xmi:id="_UMdikTwpEeib_LukJ3k4Cw" general="_s-u8oDwZEeib_LukJ3k4Cw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_jOYCkDwpEeib_LukJ3k4Cw" name="Coran" visibility="public"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_npHvkDwpEeib_LukJ3k4Cw" name="Preche" visibility="public"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_q2MIgDwpEeib_LukJ3k4Cw" name="Contact" visibility="public"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="__wBeIDwpEeib_LukJ3k4Cw" name="Chat" visibility="public"/>
 </uml:Model>
