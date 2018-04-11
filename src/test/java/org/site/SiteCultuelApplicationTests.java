@@ -1,4 +1,4 @@
-package org.kbaati;
+package org.site;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
