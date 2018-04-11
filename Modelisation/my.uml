@@ -253,12 +253,30 @@
     <generalization xmi:id="_GpCXoDwaEeib_LukJ3k4Cw" general="_s-u8oDwZEeib_LukJ3k4Cw"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_ikShkDwaEeib_LukJ3k4Cw" name="Hadith" visibility="public"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_VEnPYDwlEeib_LukJ3k4Cw" name="Strin "/>
   <packagedElement xmi:type="uml:Class" xmi:id="_UMdikDwpEeib_LukJ3k4Cw" name="AngleXX" visibility="public">
     <generalization xmi:id="_UMdikTwpEeib_LukJ3k4Cw" general="_s-u8oDwZEeib_LukJ3k4Cw"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_jOYCkDwpEeib_LukJ3k4Cw" name="Coran" visibility="public"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_npHvkDwpEeib_LukJ3k4Cw" name="Preche" visibility="public"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_q2MIgDwpEeib_LukJ3k4Cw" name="Contact" visibility="public"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="__wBeIDwpEeib_LukJ3k4Cw" name="Chat" visibility="public"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="__wBeIDwpEeib_LukJ3k4Cw" name="Chat" visibility="public">
+    <generalization xmi:id="_zrQsoD2mEeirt6OGgYEQrQ" general="_q2MIgDwpEeib_LukJ3k4Cw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_uvmq8D2mEeirt6OGgYEQrQ" name="Email" visibility="public">
+    <generalization xmi:id="_z_6uAD2mEeirt6OGgYEQrQ" general="_q2MIgDwpEeib_LukJ3k4Cw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_vncR4D2mEeirt6OGgYEQrQ" name="Telephone" visibility="public">
+    <generalization xmi:id="_0VgjgD2mEeirt6OGgYEQrQ" general="_q2MIgDwpEeib_LukJ3k4Cw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_8Qp1ID2mEeirt6OGgYEQrQ" name="InfoProchainPreche" visibility="public">
+    <ownedAttribute xmi:id="_QhnM4D2nEeirt6OGgYEQrQ" name="nomImam" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_TBOC4D2nEeirt6OGgYEQrQ" name="datePreche" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_TVqo4D2nEeirt6OGgYEQrQ" name="themePreche" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
 </uml:Model>
