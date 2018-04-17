@@ -2297,7 +2297,7 @@
             <styles xmi:type="notation:FilteringStyle" xmi:id="_CqBK8z2nEeirt6OGgYEQrQ"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_Cp_80T2nEeirt6OGgYEQrQ" fontName="Segoe UI" bold="true"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Cp_80j2nEeirt6OGgYEQrQ" x="15" y="35" width="135" height="113"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Cp_80j2nEeirt6OGgYEQrQ" x="15" y="35" width="153" height="123"/>
         </children>
         <styles xmi:type="notation:DiagramStyle" xmi:id="_RRxqMjwVEeib_LukJ3k4Cw"/>
         <edges xmi:type="notation:Edge" xmi:id="_GpiG4DwaEeib_LukJ3k4Cw" type="4001" element="_GpGpEDwaEeib_LukJ3k4Cw" source="_8Yy24DwZEeib_LukJ3k4Cw" target="_4c63MDwZEeib_LukJ3k4Cw">
